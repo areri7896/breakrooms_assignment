@@ -20,4 +20,5 @@ from breakrooms import views as break_views
 
 urlpatterns = [
     path('',break_views.home, name='home'),
+    path('login/',break_views.login, name='login'),
 ]
